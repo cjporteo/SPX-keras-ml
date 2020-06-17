@@ -38,3 +38,6 @@ I used a custom scraping script to scrape the options data from the CBOE archive
 
 ![enter link description here](https://i.imgur.com/iNnafD5.png)
 
+# Validation Accuracy by Epoch
+
+![enter link description here](https://i.imgur.com/XWk5B19.png)
