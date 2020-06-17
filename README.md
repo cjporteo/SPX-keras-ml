@@ -32,7 +32,7 @@ Other features used in this model include:
 
 I used a custom scraping script to scrape the options data from the CBOE archive and treasury data from treasury.gov.
  
- The full dataset containing EOD records for all fo these predictors spans back to 2011.
+ The full dataset containing EOD records for all of these predictors spans back to 2011.
 
 # Model Architecture
 
