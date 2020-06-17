@@ -11,7 +11,7 @@ The model is *far* from deployment-ready, and, in its current state, blindly fol
 
 The two most noteworthy features in this model are **DIX** and **GEX**, provided from https://squeezemetrics.com. These indicators give insight into market-makers' buying activity in dark pools, serving as an interesting proxy for investor sentiment. I'll do my best to provide a succinct (oversimplified) explanation of them both here, but for a more in-depth explanation, I suggest reading the White Paper [here](https://squeezemetrics.com/monitor/download/pdf/short_is_long.pdf?).
 
-**DIX (Dark Index):** Dark pool short volume across all components of the S&P 500®. Higher short volume for a MM suggest means more investors are buying. See the table below.
+**DIX (Dark Index):** Dark pool short volume across all components of the S&P 500®. Higher short volume for a MM means more investors are buying. See the table below.
 
 ![enter link description](https://i.imgur.com/wrjz2DS.png)
 
@@ -30,7 +30,7 @@ Other features used in this model include:
  - GLD (rough proxy for gold price)
  - US Treasury Yield Rates for a variety of durations
 
-I used a custom scraping script to scrape the options data from the CBOE archive and treasury data from the government database.
+I used a custom scraping script to scrape the options data from the CBOE archive and treasury data from treasury.gov.
  
  The full dataset containing EOD records for all fo these predictors spans back to 2011.
 
