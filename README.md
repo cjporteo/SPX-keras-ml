@@ -28,7 +28,7 @@ Other features used in this model include:
  - SPX Options Volume
  - USO (rough proxy for oil price)
  - GLD (rough proxy for gold price)
- - US Treasury Yield Rates for a variety of durations
+ - US Treasury Yield Rates for a variety of maturities 
 
 I used a custom scraping script to scrape the options data from the CBOE archive and treasury data from treasury.gov.
  
